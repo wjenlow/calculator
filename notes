@@ -1,0 +1,21 @@
+            if (value.textContent == "0") {
+                console.log("zero");
+                value.textContent = button.value;
+            }
+            else if (isNaN(button.value)) {
+                console.log("not a number");
+                value.textContent = button.value;
+                determineKeyType(button);
+            }
+            else if (!isNaN(button.value)) {
+                console.log("concat");
+                if (isNaN(value.textContent)){
+                    value.textContent = button.value;
+                    numbersEntered.push(Number(button.value));
+                }
+                else {
+                    value.textContent += button.value;
+                    numbersEntered.pop;
+                    numbersEntered.push(Number(value.textContent));
+                }
+            }

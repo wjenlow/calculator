@@ -1,0 +1,48 @@
+header{
+    margin-top: 40px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: small;
+}
+body{
+    text-align: center;  
+}
+.container {
+    width: fit-content;
+    border-radius: 6px;
+    border: 1px solid black;
+    padding: 1rem;
+    font-size: 0;
+    background-color: rgb(43, 42, 42);
+}
+.result-screen {
+    border: 1px solid rgb(145, 143, 143);
+    background-color: rgb(85, 85, 85);
+    color: white;
+    height: 60px;
+    width: 159px;
+    text-align: right;
+    font-size: large;
+}
+button {
+    width: 40px;
+    height: 40px;
+    font-family: sans-serif;
+    font-size: small;
+}
+.number-button, .decimal-button {
+    background-color: rgb(151, 151, 151);
+    color: white;
+}
+#zero-button {
+    width: 80px;
+}
+#clear-button {
+    width: 120px;
+    background-color: rgb(131, 131, 131);
+    color: white;
+}
+#operand-button  {
+    background-color:rgb(206, 89, 22);
+    color: white;
+}
